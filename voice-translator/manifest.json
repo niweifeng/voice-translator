@@ -1,0 +1,25 @@
+{
+    "name": "语音翻译器",
+    "short_name": "翻译器",
+    "description": "实时语音翻译应用 - 支持中文翻译到多语言",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#F5F5F5",
+    "theme_color": "#2196F3",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "categories": ["utilities", "productivity"],
+    "lang": "zh-CN",
+    "dir": "ltr"
+}

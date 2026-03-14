@@ -1,0 +1,29 @@
+{
+  "name": "voice-translator",
+  "version": "1.0.0",
+  "description": "Voice Translator App",
+  "main": "index.html",
+  "scripts": {
+    "start": "electron .",
+    "build:android": "electron-builder --android"
+  },
+  "author": "",
+  "license": "MIT",
+  "build": {
+    "appId": "com.voicetranslator.app",
+    "productName": "VoiceTranslator",
+    "directories": {
+      "output": "dist"
+    },
+    "android": {
+      "packageName": "com.voicetranslator.app",
+      "artifactName": "VoiceTranslator.apk"
+    },
+    "files": [
+      "*.html",
+      "*.js",
+      "*.css",
+      "*.json"
+    ]
+  }
+}
